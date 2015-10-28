@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Problem 5</title>
+    <script>
+        /*
+         Given the following function call: combo_problem5(2);
+         And the resulting output:
+
+         [4, 6, 8, 10, 12, 14, 16, 18, 20, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5];
+         Create a function definition that achieves the output with the given input.
+         */
+        function combo_problem5(num){
+            var problem5_array = [];
+            for (var i = 4; i <= 20; i+=num) {
+                problem5_array.push(i);
+            }
+            for (var j = 5.5; j <= 9.5; j+=.5) {
+                problem5_array.push(j);
+            }
+            console.log(problem5_array);
+        }
+        combo_problem5(2);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
