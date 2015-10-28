@@ -1,13 +1,13 @@
-# combo-problem #4
+# combo-problem #5
 
 Given the following function call:
-- combo_problem4(2,5);
+- combo_problem5(2);
 
 And the resulting output:
-- ["2+5=7", "2-5=-3", "2*5=10", "2/5=0.4"];
+- [4, 6, 8, 10, 12, 14, 16, 18, 20, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5];
 
 Create a function definition that achieves the output with the given input. 
 
-<a href="http://jsbin.com/zebete/edit?html,js,console" target="_blank">Solution Set</a>
+<a href="" target="_blank">Solution Set</a>
 
 
